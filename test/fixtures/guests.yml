@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  coming: false
+  name: MyString
+  guests: 1
+
+two:
+  coming: false
+  name: MyString
+  guests: 1
