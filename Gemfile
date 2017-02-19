@@ -76,5 +76,3 @@ group :development, :test do
   gem 'minitest'
   gem 'minitest-rails'
 end
-
-gem 'apipie'
