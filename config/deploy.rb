@@ -4,7 +4,6 @@ set :repo_url, 'git@github.com:jakemoldham/miles.git'
 set :branch, :master 
 
 set :deploy_to, '~/www/milesoldham.com'
-set :scm, :git
 
 set :format, :pretty
 set :linked_dirs, %w{log tmp vendor/bundle public/system public/uploads}
