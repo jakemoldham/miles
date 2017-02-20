@@ -1,9 +1,9 @@
-set :application, 'example'
-set :repo_url, 'git@git.example.git'
+set :application, 'miles'
+set :repo_url, 'git@github.com:jakemoldham/miles.git'
 
 set :branch, :master 
 
-set :deploy_to, '~/www/example.com'
+set :deploy_to, '~/www/milesoldham.com'
 set :scm, :git
 
 set :format, :pretty

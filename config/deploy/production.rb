@@ -7,7 +7,7 @@ set :env, "production"
 # Supports bulk-adding hosts to roles, the primary
 # server in each group is considered to be the first
 # unless any hosts have the primary property set.
-domains = %w{example@changme.com}
+domains = %w{milesoldham.com}
 role :app, domains 
 role :web, domains 
 role :db,  domains
