@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  get 'static_pages/index'
+  root 'static_pages#index'
+
+  post "static_pages/guest", to: "static_pages#guest", as: :static_pages_guest
 
   devise_for :users
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
