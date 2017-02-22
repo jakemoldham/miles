@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: miles_production
-  username: miles
-  password: <%= ENV['MILES_DATABASE_PASSWORD'] %>
+  socket: /var/run/mysqld/mysqld.sock
+  username:
+  password:
