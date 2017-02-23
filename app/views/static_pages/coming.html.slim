@@ -1,0 +1,28 @@
+.container
+  .row.top-row 
+    .col-sm-12
+      .col-sm-6
+        #sum-guests
+          h1 Total guests coming:  
+          #sg = @sum_guests
+      .col-sm-6
+        #sum-not-guests
+          h1 Total guests NOT coming:  
+          #sng = @sum_not_guests
+  hr
+  .row
+    h1 COMING
+    - @guests.each do |g|
+      .col-sm-3.coming-box
+        h3 = g.name
+        h3.inline 
+          | Party of: 
+        h3.inline = g.guests
+  hr
+  .row
+    h1 NOT COMING
+    - @not_guests.each do |g|
+      .col-sm-3.coming-box
+        h3 = g.name
+        h3 = g.guests
+  hr
