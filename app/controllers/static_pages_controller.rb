@@ -5,7 +5,7 @@ class StaticPagesController < ApplicationController
 
   def guest
     Guest.create(coming: params[:coming], name: params[:name], guests: params[:guests])
-    redirect_to root_path, notice: "WE ARE GOING TO PARTAY!"
+    redirect_to root_path, notice: "Thank You!"
   end
 
   def coming
